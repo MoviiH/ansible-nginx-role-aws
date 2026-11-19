@@ -37,8 +37,11 @@ ansible -i inventory webservers -m shell -a "curl -s localhost"
 - Idempotent: a second run reports `changed=0`
 
 ## Screenshots
+![Syntax check](syntax-check.png)
 
-(added in the next step)
+![Playbook run](playbook-run.png)
+
+![Curl nginx](curl-nginx.png)
 
 ## Problems I solved
 
